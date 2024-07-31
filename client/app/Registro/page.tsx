@@ -38,7 +38,7 @@ const PageRegister: React.FC = () => {
         };
 
         try {
-            const res = await fetch(`${process.env.SERVER}/Registro`, {
+            const res = await fetch(`https://paquete-production-63e4.up.railway.app/Registro`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

@@ -23,7 +23,7 @@ const PageLogin: React.FC = () => {
 
         try {
             const data = { email, password };
-            const res = await fetch(`${process.env.SERVER}/Login`, {
+            const res = await fetch(`https://paquete-production-63e4.up.railway.app/Login`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
